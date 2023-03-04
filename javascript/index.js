@@ -1,8 +1,7 @@
-const $containerCategories = document.querySelector("#container-categories");
 const $containerCarousel = document.querySelector("#container-carousel");
 const $containerProducts = document.querySelector("#container-sales");
 
-const readDB = (nameDB) => {
+const readDBFromIndex = (nameDB) => {
   return fetch(`../database/${nameDB}.json`)
     .then((res) => res.json())
     .then((data) => data);
@@ -11,21 +10,9 @@ const readDB = (nameDB) => {
 const ellipsis = (text) =>
   text.length > 65 ? text.substring(0, 65) + "..." : text;
 
-// PAINT CATEGORIES
-readDB("categories")
-  .then((categories) => {
-    categories.forEach(({ name, id }) => {
-      const estructureCategoryItem = `
-    <li><a class="dropdown-item" href="#">${name}</a></li>
-    `;
-      $containerCategories.innerHTML += estructureCategoryItem;
-    });
-  })
-  .catch((error) => console.error(error));
-
 // IMAGES CAROUSEL
 
-readDB("carousel")
+readDBFromIndex("carousel")
   .then((images) => {
     images.forEach(({ filename, url, backgroundColor }, index) => {
       const carouselItem = `
@@ -41,7 +28,7 @@ readDB("carousel")
   .catch((error) => console.error(error));
 
 // PAINT PRODUCTS
-readDB("products")
+readDBFromIndex("products")
   .then((products) => {
     products
       .filter(({ discount }) => discount > 20)

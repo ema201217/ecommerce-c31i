@@ -1,18 +1,21 @@
 [
   {
     "id":1,
-    "image":""
+    "url":"",
+    "filename":"1.png",
+    "backgroundColor": "#9ab5c8"
   },
   {
     "id":2,
-    "image":""
+    "url":"https://http2.mlstatic.com/D_NQ_882568-MLA54028453641_022023-OO.webp",
+    "filename":"2.png",
+    "backgroundColor": "#fee43d"
+    
   },
   {
     "id":3,
-    "image":""
-  },
-  {
-    "id":4,
-    "image":""
+    "url":"https://http2.mlstatic.com/D_NQ_706888-MLA54152300651_032023-OO.webp",
+    "filename":"3.png",
+    "backgroundColor": "#8e57d2"
   }
 ]

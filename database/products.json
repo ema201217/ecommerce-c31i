@@ -30,5 +30,21 @@
     "discount": 15,
     "price": 19988,
     "image": "https://http2.mlstatic.com/D_NQ_NP_624328-MLA40339660679_012020-V.webp"
+  },
+  {
+    "id": 5,
+    "title": "Maquina Pochoclera * Pochoclos * Popcorn * Pororo *",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta rerum dolorum voluptatem enim aspernatur harum vel. Voluptas aut commodi doloribus?",
+    "discount": 0,
+    "price": 60000,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_2X_711610-MLA44341319631_122020-F.webp"
+  },
+  {
+    "id": 6,
+    "title": "Combo Gamer Auricular Teclado Mouse Constrictor Grootslang",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta rerum dolorum voluptatem enim aspernatur harum vel. Voluptas aut commodi doloribus?",
+    "discount": 30,
+    "price": 7899,
+    "image": "https://http2.mlstatic.com/D_NQ_NP_980506-MLA48181175836_112021-O.webp"
   }
 ]

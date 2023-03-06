@@ -2,7 +2,7 @@ const $containerCategories = document.querySelector("#container-categories");
 const $containerLinks = document.querySelector("#container-links");
 
 const readDBFromHeader = (nameDB) => {
-  return fetch(`../database/${nameDB}.json`)
+  return fetch(`../databaseAndConfig/${nameDB}.json`)
     .then((res) => res.json())
     .then((data) => data);
 };

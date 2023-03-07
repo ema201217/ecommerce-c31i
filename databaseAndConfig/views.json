@@ -46,5 +46,13 @@
     "headerActive": true,
     "link": "",
     "filename": "createProduct.html"
+  },
+  {
+    "titleView": "Contacto",
+    "titleViewActive": true,
+    "headerItem": "Contacto",
+    "headerActive": true,
+    "link": "",
+    "filename": "contact.html"
   }
 ]

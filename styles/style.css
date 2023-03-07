@@ -1,0 +1,14 @@
+* {
+    padding:0;
+    margin:0;
+}
+.navbar {
+    background-color:#abd2ff!important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.badge {
+    background-color: #abd2ff;
+}
+.redesfooter {
+    width: 2vw;
+}

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+footer {
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80d0c8 65%);
+
+}
+
+#textoFooter1, #textoFooter2, #textoFooter3, #textoFooter4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.redesfooter {
+    width: 3vw;
+}
+
+
+

@@ -1,7 +1,7 @@
-const $textoFooter1 = document.querySelector("#textoFooter1")
-const $textoFooter2 = document.querySelector("#textoFooter2")
-const $textoFooter3 = document.querySelector("#textoFooter3")
-const $textoFooter4 = document.querySelector("#textoFooter4")
+// const $textoFooter1 = document.querySelector("#textoFooter1")
+// const $textoFooter2 = document.querySelector("#textoFooter2")
+// const $textoFooter3 = document.querySelector("#textoFooter3")
+// const $textoFooter4 = document.querySelector("#textoFooter4")
 const $footerWithJs = document.querySelector("#footerWithJs")
 
 
